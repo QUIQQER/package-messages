@@ -3,20 +3,20 @@
     <groups name="quiqqer/messages" datatype="php,js">
 
         <locale name="template.message.error">
-            <de><![CDATA[]]></de>
-            <en><![CDATA[]]></en>
+            <de><![CDATA[Meldung: Fehler]]></de>
+            <en><![CDATA[Message: Error]]></en>
         </locale>
         <locale name="template.message.attention">
-            <de><![CDATA[]]></de>
-            <en><![CDATA[]]></en>
+            <de><![CDATA[Meldung: Hinweis]]></de>
+            <en><![CDATA[Message: Attention]]></en>
         </locale>
         <locale name="template.message.success">
-            <de><![CDATA[]]></de>
-            <en><![CDATA[]]></en>
+            <de><![CDATA[Meldung: Erfolgreich]]></de>
+            <en><![CDATA[Message: Success]]></en>
         </locale>
         <locale name="template.message.information">
-            <de><![CDATA[]]></de>
-            <en><![CDATA[]]></en>
+            <de><![CDATA[Meldung: Hinweis]]></de>
+            <en><![CDATA[Message: Information]]></en>
         </locale>
 
     </groups>
