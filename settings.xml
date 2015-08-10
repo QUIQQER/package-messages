@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiqqer>
+    <project>
+
+        <wysiwyg class="page-content">
+            <css src="URL_OPT_DIR/quiqqer/messages/bin/messages.css"/>
+
+            <styles>
+                <!-- messages -->
+                <style element="div">
+                    <locale group="quiqqer/messages" var="template.message.error"/>
+                    <attributes>
+                        <attribute name="class">content-message-error</attribute>
+                    </attributes>
+                </style>
+
+                <style element="div">
+                    <locale group="quiqqer/messages" var="template.message.attention"/>
+                    <attributes>
+                        <attribute name="class">content-message-attention</attribute>
+                    </attributes>
+                </style>
+
+                <style element="div">
+                    <locale group="quiqqer/messages" var="template.message.success"/>
+                    <attributes>
+                        <attribute name="class">content-message-success</attribute>
+                    </attributes>
+                </style>
+
+                <style element="div">
+                    <locale group="quiqqer/messages" var="template.message.information"/>
+                    <attributes>
+                        <attribute name="class">content-message-information</attribute>
+                    </attributes>
+                </style>
+            </styles>
+        </wysiwyg>
+
+    </project>
+</quiqqer>
