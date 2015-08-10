@@ -1,7 +1,7 @@
 {
     "name" : "quiqqer/messages",
     "type" : "quiqqer-plugin",
-    "description" : "QUIQQER menus for projects",
+    "description" : "QUIQQER CSS Message Classes for the wysiwy content editor",
     "version" : "dev-master",
     "license" : "MIT",
 
