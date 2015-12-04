@@ -6,25 +6,72 @@
     clear: both;
     float: left;
     margin: 3px 0 0;
-    padding: 10px 10px 10px 34px;
+    padding: 10px 10px 10px 40px;
     position: relative;
     width: 100%;
 }
 
 /** Message colors */
 .content-message-error {
-    background: #F2D4CE url('images/error.png') no-repeat 10px 13px;
+    background-color: #F2D4CE;
     border-color: #AE432E;
+    color: #AE432E;
 }
+
+.content-message-error:before {
+    font-family: "FontAwesome";
+    content: "\f00d";
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 30px;
+}
+
+
 .content-message-attention {
-    background: #FAF6D4 url('images/attention.png') no-repeat 10px 13px;
+    background-color: #FAF6D4;
     border-color: #E6C26E;
 }
+
+.content-message-attention:before {
+    font-family: "FontAwesome";
+    content: "\f071";
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 30px;
+}
+
+
 .content-message-success {
-    background: #D9E6C3 url('images/success.png') no-repeat 10px 13px;
+    background-color: #D9E6C3;
     border-color: #77AB13;
 }
+
+.content-message-success:before {
+    font-family: "FontAwesome";
+    content: "\f00c";
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 30px;
+}
+
+
 .content-message-information {
-    background: #CEE6F2 url('images/information.png') no-repeat 10px 13px;
+    background-color: #CEE6F2;
     border-color: #058DC7;
+}
+
+.content-message-information:before {
+    font-family: "FontAwesome";
+    content: "\f128";
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 30px;
 }
