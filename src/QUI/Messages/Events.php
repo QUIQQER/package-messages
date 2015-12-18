@@ -12,9 +12,8 @@ namespace QUI\Messages;
  */
 class Events
 {
-    static function onTemplateGetHeader($Template)
+    public static function onTemplateGetHeader($Template)
     {
         $Template->extendHeaderWithCSSFile(URL_OPT_DIR .'quiqqer/messages/bin/messages.css');
     }
-
 }
