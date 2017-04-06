@@ -2,7 +2,7 @@
   "name": "quiqqer\/messages",
   "type": "quiqqer-plugin",
   "description": "QUIQQER CSS Message Classes for the wysiwy content editor",
-  "version": "dev-dev",
+  "version": "dev-master",
   "license": "MIT",
   "authors": [
     {
