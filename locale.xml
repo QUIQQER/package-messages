@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <locales>
     <groups name="quiqqer/messages" datatype="php,js">
+        <locale name="package.title">
+            <de><![CDATA[QUIQQER - Messages]]></de>
+            <en><![CDATA[QUIQQER - Messages]]></en>
+        </locale>
+        <locale name="package.description" html="true">
+            <de><![CDATA[CSS Button Klassen für Nachrichten / Hinweise]]></de>
+            <en><![CDATA[CSS Button classes for messages / notes]]></en>
+        </locale>
 
         <locale name="template.message.error">
             <de><![CDATA[Meldung: Fehler]]></de>
@@ -18,6 +26,5 @@
             <de><![CDATA[Meldung: Hinweis]]></de>
             <en><![CDATA[Message: Information]]></en>
         </locale>
-
     </groups>
 </locales>
