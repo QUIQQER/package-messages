@@ -23,7 +23,7 @@
             <en><![CDATA[Message: Success]]></en>
         </locale>
         <locale name="template.message.information">
-            <de><![CDATA[Meldung: Hinweis]]></de>
+            <de><![CDATA[Meldung: Information]]></de>
             <en><![CDATA[Message: Information]]></en>
         </locale>
     </groups>
